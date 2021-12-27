@@ -119,3 +119,6 @@ solve(0, 0, board)
 console.log("\n")
 printBoard(board)
 console.log("Back tracked " + backtrack + " many times")
+
+
+
