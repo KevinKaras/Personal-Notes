@@ -1,7 +1,7 @@
 /**
  * @param {number[]} nums
  * @return {number[]}
- */
+ **/
  var productExceptSelf = function(nums) {
     const res = [];
     
@@ -20,3 +20,5 @@
     return res;
     
 };
+
+
