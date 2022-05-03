@@ -33,6 +33,7 @@ Only the filled cells need to be validated according to the mentioned rules.
             }
 
             const grid = `${Math.floor(r / 3)}${Math.floor(c / 3)}`;
+            console.log(grid)
 
             if (!cols[c]) {
                 cols[c] = new Set();
