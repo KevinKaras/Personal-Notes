@@ -1,4 +1,5 @@
-let res = [];
+var threeSum = function(nums) {
+    let res = [];
     let left = 0;
     let right = nums.length - 1;
     nums.sort((a,b) => { return a - b })
@@ -27,3 +28,4 @@ let res = [];
         }
     }
     return res;
+};
